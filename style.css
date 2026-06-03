@@ -1377,6 +1377,44 @@ button:focus {
     }
 }
 
+/* ============================================================
+   PRIVACY PAGE
+   ============================================================ */
+.privacy-body {
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+}
+
+.privacy-section h2 {
+    font-family: var(--font-heading);
+    font-size: 20px;
+    color: var(--color-text);
+    margin-bottom: var(--space-xs);
+}
+
+.privacy-section p,
+.privacy-section li {
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--color-text-sub);
+}
+
+.privacy-section ul {
+    padding-left: var(--space-md);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: var(--space-xs) 0;
+}
+
+.privacy-section a {
+    color: var(--color-coral);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 /* Honour reduced-motion preference */
 @media (prefers-reduced-motion: reduce) {
     .hero-text,
